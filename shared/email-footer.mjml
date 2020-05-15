@@ -1,0 +1,23 @@
+<mj-section css-class="footer">
+  <mj-column>
+    <mj-text>
+      Ne loupez pas nos publications :
+    </mj-text>
+    <mj-social>
+      <mj-social-element name="facebook" href="https://www.facebook.com/cellenzait">
+        Facebook
+      </mj-social-element>
+      <mj-social-element name="twitter" href="https://twitter.com/cellenza">
+        Twitter
+      </mj-social-element>
+      <mj-social-element name="linkedin" href="https://www.linkedin.com/company/cellenza">
+        LinkedIn
+      </mj-social-element>
+      <mj-social-element name="youtube" href="https://www.youtube.com/channel/UCoGtu5MrQJr4wX9EPjQqyrQ">
+        Youtube
+      </mj-social-element>
+      <mj-social-element name="instagram" href="https://www.instagram.com/cellenzalife">
+        Instagram
+      </mj-social-element>
+    </mj-social>
+</mj-section>

@@ -1,0 +1,33 @@
+<mjml>
+  <mj-head>
+    <mj-include path="./shared/email-style.mjml" />
+    <mj-preview>Un nouvel article vient d'être publié...</mj-preview>
+  </mj-head>
+  <mj-body css-class="body">
+    <mj-raw>
+      <!-- header -->
+    </mj-raw>
+    <mj-include path="./shared/email-head.mjml" />
+    <mj-section>
+      <mj-raw>
+        <!-- Left image -->
+      </mj-raw>
+      <mj-column>
+        <mj-image width="200px" src="https://i.imgur.com/XDONLGr.png"></mj-image>
+      </mj-column>
+      <mj-raw>
+        <!-- right paragraph -->
+      </mj-raw>
+      <mj-column>
+        <mj-text css-class="highlight-text">Un nouvel article vient d'être publié sur le blog Cellenza</mj-text>
+        <mj-text>Il devrait sûrement changer votre vie, allez vite le consulter :</mj-text>
+        <mj-button href="http://blog.cellenza.com/" css-class="button">Accéder à l'article</mj-button>
+        <mj-text>Cliquez vite!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- footer -->
+    </mj-raw>
+    <mj-include path="./shared/email-footer.mjml" />
+  </mj-body>
+</mjml>

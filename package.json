@@ -1,0 +1,20 @@
+{
+  "name": "emailtemplates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "glob": "^7.1.6",
+    "minimist": "^1.2.5",
+    "mjml": "^4.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "mjml": "npm run --silent mjml-export",
+    "mjml-export": "node node_scripts/export.js"
+  },
+  "keywords": [],
+  "author": "Geoffrey Mohaer",
+  "license": "ISC"
+}

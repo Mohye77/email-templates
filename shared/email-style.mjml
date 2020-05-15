@@ -1,0 +1,33 @@
+<mj-style>
+  .body > div {
+  font-family: Helvetica, Arial, sans-serif;
+  background:#ffffff;
+  }
+  .header tr{
+  background:#0D182C;
+  }
+  .header-text div{
+  text-transform:uppercase !important;
+  color:#ffffff !important;
+  font-size:30px !important;
+  }
+  .highlight-text div {
+  color: #10a5e3 !important;
+  font-size: 15px !important;
+  font-weight: 400;
+  }
+  .button td,
+  .button a {
+  background: #10a5e3 !important;
+  color: white;
+  font-size: 17px;
+  font-weight: bold !important;
+  }
+  .footer div{
+  font-size:10px;
+  }
+  .footer img{
+  width:25px;
+  height:25px;
+  }
+</mj-style>
