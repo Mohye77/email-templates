@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.19.2",
     "cli-color": "^2.0.0",
     "glob": "^7.1.6",
     "minimist": "^1.2.5",
@@ -11,8 +12,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "mjml": "npm run --silent mjml-export",
-    "mjml-export": "node node_scripts/export.js"
+    "mjml-export": "node node_scripts/export.js",
+    "mjml-deploy": "node node_scripts/deploy.js"
   },
   "keywords": [],
   "author": "Geoffrey Mohaer",
