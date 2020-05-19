@@ -5,12 +5,11 @@ const path = require('path');
 const clc = require('cli-color');
 const axios = require('axios').default;
 
-const templatesData = require('../templates-data.js');
 const constants = require('../const.js');
 
 var sourceDir = "export";
 var publicKey = undefined;
-var privateKey = "";
+var privateKey = undefined;
 
 const argv = process.argv.slice(2);
 
@@ -104,7 +103,7 @@ function pushTemplates() {
                         var createTemplateDetailContent = {
                             "Headers": {
                                 "From": constants.from,
-                                "Subject": templatesData[fileName].subject
+                                "Subject": fileName
                             },
                             "Html-part": htmlContent,
                             "Text-Part": textContent
