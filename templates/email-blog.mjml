@@ -1,13 +1,13 @@
 <mjml>
   <mj-head>
-    <mj-include path="./templates/shared/email-style.mjml" />
+    <mj-include path="./shared/email-style.mjml" />
     <mj-preview>Un nouvel article vient d'être publié...</mj-preview>
   </mj-head>
   <mj-body css-class="body">
     <mj-raw>
       <!-- header -->
     </mj-raw>
-    <mj-include path="./templates/shared/email-head.mjml" />
+    <mj-include path="./shared/email-head.mjml" />
     <mj-section>
       <mj-raw>
         <!-- Left image -->
@@ -28,6 +28,6 @@
     <mj-raw>
       <!-- footer -->
     </mj-raw>
-    <mj-include path="./templates/shared/email-footer.mjml" />
+    <mj-include path="./shared/email-footer.mjml" />
   </mj-body>
 </mjml>
