@@ -32,7 +32,7 @@ glob(`${sourceDir}/*.mjml`, { mark: true, sync: false }, function (globError, ma
                 beautify: true,
                 minify: true,
                 keepComments: false,
-                filePath: './templates',
+                filePath: `./${sourceDir}`,
                 minifyOptions:
                 {
                     minifyCSS: true,
