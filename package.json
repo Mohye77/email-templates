@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cli-color": "^2.0.0",
     "glob": "^7.1.6",
     "minimist": "^1.2.5",
